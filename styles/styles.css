@@ -150,10 +150,14 @@ img {
 .btn-change {
   background-color: transparent;
   transition: 0.2s ease-in-out;
+  color: var(--bright-blue);
+  transition: 0.2s ease-in-out;
+  text-decoration: underline;
 }
 .btn-change:hover, 
 .btn-proceed:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
 .btn-proceed {
   background-color: var(--bright-blue);
@@ -178,25 +182,9 @@ img {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-}
-.btn-change a {
-  color: var(--bright-blue);
   transition: 0.2s ease-in-out;
 }
-.btn-change:hover a{
-  text-decoration: none;
-}
-.btn-proceed a {
-  text-decoration: none;
-  color: var(--very-pale-blue);
-  transition: 0.2s ease-in-out;
-}
-.btn-cancel a {
-  text-decoration: none;
-  color: var(--desaturated-blue);
-  transition: 0.2s ease-in-out;
-}
-.btn-cancel a:hover {
+.btn-cancel:hover {
   color: var(--dark-blue);
 }
 .attribution { font-size: 11px; text-align: center; }
