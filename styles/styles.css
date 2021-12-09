@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --box-shadow: hsl(225, 23%, 79%);
+}
+
+body {
+  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+  background-color: var(--pale-blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.background-img {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 45vh;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 650px) {
+  .background-img {background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+@media screen and (max-width: 380px) {
+  .background-img {background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+h1 {
+  font-size: 30px;
+  color: var(--dark-blue);
+  margin-top: 3rem;
+  font-weight: 700;
+}
+span {
+  display: block;
+  font-size: 16px;
+  color: var(--desaturated-blue);
+}
+p {
+  font-size: 16px;
+  color: var(--desaturated-blue);
+}
+.plan-layout {
+  background-color: white;
+  width: 450px;
+  height: 80vh;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 15px 40px var(--box-shadow);
+}
+@media screen and (max-width:650px) {
+  .plan-layout {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  .plan-layout {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+@media screen and (max-width: 650px) {
+  .plan-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .pricing {
+    width: 5rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .plan-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .pricing {
+    width: 5rem;
+  }
+}
+.plan-box {
+  background-color: var(--very-pale-blue);
+  text-align: center;
+  border-radius: 15px;
+  width: 80%;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.plan-flex {
+  display: flex;
+  align-items: center;  
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12rem;
+}
+@media screen and (max-width:650px) {
+  .pricing {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 380px) {
+  .pricing {
+    width: 30vw;
+  }
+}
+.music-icon {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.an-plan {
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.btns {
+  border: none;
+  padding: 5px 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-change {
+  background-color: transparent;
+  transition: 0.2s ease-in-out;
+}
+.btn-change:hover, 
+.btn-proceed:hover {
+  opacity: 0.7;
+}
+.btn-proceed {
+  background-color: var(--bright-blue);
+  text-decoration: none;
+  color: var(--very-pale-blue);
+  border-radius: 10px;
+  height: 3rem;
+  width: 80%;
+  font-size: 16px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 15px 15px var(--box-shadow);
+  transition: 0.2s ease-in-out;
+}
+.btn-cancel {
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-change a {
+  color: var(--bright-blue);
+  transition: 0.2s ease-in-out;
+}
+.btn-change:hover a{
+  text-decoration: none;
+}
+.btn-proceed a {
+  text-decoration: none;
+  color: var(--very-pale-blue);
+  transition: 0.2s ease-in-out;
+}
+.btn-cancel a {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  transition: 0.2s ease-in-out;
+}
+.btn-cancel a:hover {
+  color: var(--dark-blue);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
