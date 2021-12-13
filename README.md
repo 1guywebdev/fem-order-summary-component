@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-Here is a screenshot of the page on imgbb.com
+Here is a screenshot of the page on imgbb.com<br>
 <a href="https://ibb.co/s6K4MQy"><img src="https://i.ibb.co/xf1bRGJ/Web-capture-13-12-2021-144243-1guywebdev-fem-order-summary-component-netlify-app.jpg" alt="Web-capture-13-12-2021-144243-1guywebdev-fem-order-summary-component-netlify-app" border="0"></a>)
 
 ### Links
