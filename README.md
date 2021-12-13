@@ -45,7 +45,6 @@ Users should be able to:
 ### What I learned
 
 I've learned about placing and sizing the background image with 
-```
 ```css
 .element {
   background-size: ;
