@@ -39,8 +39,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-using-mostly-flex-display-and-media-queries-HFbXBJ6ci)
+- Live Site URL: [Add live site URL here](https://1guywebdev-fem-order-summary-component.netlify.app/)
 
 ## My process
 
